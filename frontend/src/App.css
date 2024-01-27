@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+body{
+    background:linear-gradient(to right ,#ec2c2c,#e9993d);
+}
+#underline{
+    border-bottom:3px solid white;
+    padding-bottom:4px;
+}
+#container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:20px 0px;
+}
+.main{
+    margin-bottom:35px;
+}
+.items{
+    margin-bottom:16px;
+}
+.insert{
+    width: 360px;
+    height: 32px;
+    margin: 0px 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+#add{
+    border:none;
+    color:white;
+    background-color:#e9993d;
+    font-weight:bold;
+    font-size:18px;
+    width:35px;
+    height:32px;
+}
+#clear{
+    font-size:18px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    background-color:#ec2c2c;
+    width:35px;
+    height:32px;
+}   
+#add:hover, #clear:hover{
+    cursor:pointer;
+    background-color:white;
+    color:#e9993d;
+
+}
+#add:hover i{
+    color:#e9993d;
+}
+#clear:hover i{
+    color:#ec2c2c;
+}
+.task{
+    width:412px;
+    height:30px;
+    padding:8px;
+    font-weight:bold;
+}
+.check , .edit , .delete{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    border:none;
+    width:35px;
+    height:30px;
+}
+.check{
+    background-color:#29d229;
+    
+}
+.edit{
+    background-color:rgba(0, 0, 255, 0.767);
+}
+.delete{
+    background-color:#ec2c2c;
+}
+ .edit:hover 
+{
+    background-color:rgba(255,255,255,0.75);
+    color:rgba(0, 0, 255, 0.767);
+}
+.delete:hover 
+{
+    background-color:rgba(255,255,255,0.75);
+    color:#ec2c2c;
+}
+.check:hover 
+{
+    background-color:rgba(255,255,255,0.75);
+    color:#29d229;
+}
+
+#strike{
+    text-decoration:line-through;
+}

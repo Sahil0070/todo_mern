@@ -1,0 +1,9 @@
+*.cjs text eol=crlf
+*.css text eol=crlf
+*.html text eol=crlf
+*.jsx text eol=crlf
+*.json text eol=crlf
+*.lock text eol=crlf
+*.md text eol=crlf
+*.yarn text eol=crlf
+# ... add more file patterns as needed
