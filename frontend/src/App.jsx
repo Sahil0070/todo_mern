@@ -36,7 +36,7 @@ function App() {
           </div>  
           
         {todos.map((todo)=>{
-          return (<Todos  key={todo.id} id={todo.id} getTodos={getTodos} title={todo.title} description={todo.description}></Todos>)
+          return (<Todos  key={todo._id} id={todo._id} getTodos={getTodos} title={todo.title} description={todo.description}></Todos>)
         })}
          
     </div>
